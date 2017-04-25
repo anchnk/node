@@ -213,10 +213,15 @@ The object itself emits these events:
 ### Event: 'change'
 <!-- YAML
 added: v0.5.8
+changes:
+  - version: v7.6.0
+    pr-url: https://github.com/nodejs/node/pull/10739
+    description: The `filename` parameter can be a WHATWG `URL` object using
+                 `file:` protocol. Support is currently still *experimental*.
 -->
 
 * `eventType` {string} The type of fs change
-* `filename` {string|Buffer} The filename that changed (if relevant/available)
+* `filename` {string|Buffer|URL} The filename that changed (if relevant/available)
 
 Emitted when something changes in a watched directory or file.
 See more details in [`fs.watch()`][].
