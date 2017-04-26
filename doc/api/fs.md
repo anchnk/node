@@ -2936,10 +2936,15 @@ The following constants are meant for use with the [`fs.Stats`][] object's
 [`net.Socket`]: net.html#net_class_net_socket
 [`stat()`]: fs.html#fs_fs_stat_path_callback
 [`util.inspect(stats)`]: util.html#util_util_inspect_object_options
+<<<<<<< 899bc7a12fe38ee9c23c8142d7c2bb16d494dee3
 [`util.promisify()`]: util.html#util_util_promisify_original
 [Caveats]: #fs_caveats
 [Common System Errors]: errors.html#errors_common_system_errors
 [FS Constants]: #fs_fs_constants_1
+=======
+[`WriteStream`]: #fs_class_fs_writestream
+[URL]: url.html#url_the_whatwg_url_api
+>>>>>>> doc: add WHATWG file URLs in fs module
 [MDN-Date-getTime]: https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getTime
 [MDN-Date]: https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date
 [Readable Stream]: stream.html#stream_class_stream_readable
